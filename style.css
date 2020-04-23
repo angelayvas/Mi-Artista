@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.container{
+    margin: 0 5% 0 5%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background: rgba(11,62,82,1);
+    background: -moz-linear-gradient(top, rgba(11,62,82,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(11,62,82,1)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(11,62,82,1) 0%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(11,62,82,1) 0%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(11,62,82,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(11,62,82,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b3e52', endColorstr='#000000', GradientType=0 );
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: #041921;
+}
+
+.menuItem{
+    display: inline;
+    padding: 0 2% 0 2%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.muse{
+    margin: 80px 0 0 0;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 1.7em;
+    border-top: 10px white solid;
+    border-bottom: 10px white solid;
+}
+
+.integrantes{
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.integrantes ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+.integrantes li
+{
+    font-size: 1.5rem;
+   display: inline;
+   padding-right: 5px;
+}
+
+article{
+    padding: 0 20% 0 20%;
+    text-align: justify;
+}
+
+.discografia{
+    padding: 10px 0 10px 0;
+}
+.discografia table td{
+    padding-left: 20px;
+}
+
+.top5 li{
+    padding: 5px 0 5px 0;
+
+}
+
+p{
+    padding: 7px 0 7px 0;
+}
+
+.paginaOficial a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #0B3B4D;
+}
+
+a:hover{
+    color: cornflowerblue;
+    text-decoration: currentColor;
+    background-color: #06212C;
+}
+
+.galeria img{
+    display: inline-block;
+    width: 49%;
+    height: 49%;
+    padding: 5%;
+}
+
+.homeButton{
+    padding: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #010608;
+}
+
+.reproductor{
+    padding-bottom: 5%;
+}
+
+
